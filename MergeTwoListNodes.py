@@ -7,7 +7,7 @@ class ListNode:
 
 # 暴力解法,引入哑节点,时间复杂度O(m+n),空间复杂度O(1)
 class Solution:
-    def MergeTwoLists(self,l1,l2):
+    def MergeTwoLists(self, l1, l2):
         prevHead = ListNode(-1)
         prev = prevHead
         while l1 and l2:
@@ -18,7 +18,7 @@ class Solution:
                 prev.next = l2
                 l2 = l2.next
             prev = prev.next
-        
+
         prev.next = l1 if l1 is not None else l2
         return prevHead.next
 

@@ -5,7 +5,7 @@ def reverse(self, x: int) -> int:
     reverseNum = []
     for i in strNum:
         numList.append(i)
-    
+
     if numList[-1] == "0" and len(numList) > 1:
         numList.pop()
 
@@ -15,9 +15,10 @@ def reverse(self, x: int) -> int:
         elif numList[-1] == "-":
             reverseNum.insert(0, numList.pop())
     strNum = "".join(reverseNum)
-    if -2**31 < int(strNum) < 2**31-1:
+    if -2**31 < int(strNum) < 2**31 - 1:
         return int(strNum)
     else:
         return 0
+
 
 # 整数思路
