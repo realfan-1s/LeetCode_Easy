@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "e:\\Python38_64\\Python3.8.5\\python.exe",
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "files.associations": {
+        "*.m": "matlab",
+        "*.cs": "csharp",
+        "unordered_map": "cpp"
+    }
+}

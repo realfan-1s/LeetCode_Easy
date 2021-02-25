@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "G:\\mingw-w64/x86_64-8.1.0-win32/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "E:/VisualStudio2019/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe",
+            "intelliSenseMode": "msvc-x64",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
